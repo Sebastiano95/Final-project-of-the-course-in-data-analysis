@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset information data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #menu {
+            margin-bottom: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #tableauViz {
+            width: 100%;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Dataset information data</h1>
+
+    <div id="menu">
+        <button onclick="changeDashboard('Dashboard1')">Dashboard 1</button>
+        <button onclick="changeDashboard('Dashboard2')">Dashboard 2</button>
+        <button onclick="changeDashboard('Dashboard3')">Dashboard 3</button>
+        <button onclick="changeDashboard('Dashboard4')">Dashboard 4</button>
+    </div>
+
+    <div id="tableauViz">
+        <!-- Iframe per visualizzare la dashboard -->
+        <iframe src="https://public.tableau.com/views/ProgettoFinaleDataAnalysisdiSebastianoIaci/Dashboard1?:showVizHome=no&:embed=true"
+                width="100%" height="800"></iframe>
+    </div>
+
+</body>
+</html>
+
+
+
